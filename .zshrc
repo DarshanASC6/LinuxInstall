@@ -11,4 +11,8 @@ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Vi keybindings
+set -o vi
+
+# Ego booster
 neofetch
