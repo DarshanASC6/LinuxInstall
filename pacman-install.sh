@@ -9,13 +9,15 @@ echo "Installing various applications."
 # Git
 # Vim
 # Lollypop Music Player
-# Libre Office
+# Libre Office 19
 # Zathura PDF Reader
 # Zathura add-ons for PDF and EPUB support
 # mpv Media Player
 # nitrogen
 # xsetroot
-sudo pacman -S firefox vlc neofetch git vim lollypop libreoffice zathura zathura-pdf-mupdf mpv nitrogen xorg-xsetroot
+# doas
+
+sudo pacman -S firefox vlc neofetch git vim lollypop libreoffice zathura zathura-pdf-mupdf mpv nitrogen xorg-xsetroot doas
 
 #Set up vim plug installer
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
