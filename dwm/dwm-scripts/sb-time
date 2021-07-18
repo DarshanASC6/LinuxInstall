@@ -1,6 +1,0 @@
-#!/bin/bash
-
-icon=""
-date="$(date '+%b (%a) %d %Y')"
-hour_minute="$(date '+%I:%M%^P ')"
-printf "%s %s" "$icon" "$hour_minute" "$date"

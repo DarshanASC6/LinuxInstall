@@ -1,5 +1,0 @@
-#!/bin/bash
-
-icon=""
-capacity=$(echo $(cat /sys/class/power_supply/BAT0/capacity)"%")
-printf "%s %s" "$icon" "$capacity"

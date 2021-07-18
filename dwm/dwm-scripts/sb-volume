@@ -1,5 +1,0 @@
-#!/bin/bash
-
-icon=""
-volume=$(awk -F"[][]" '/Left:/ { print $2}' <(amixer sget Master))
-printf "%s %s" "$icon" "$volume"
