@@ -4,11 +4,11 @@ HISTFILE=~/.zhistory
 HISTSIZE=1000
 SAVEHIST=1000
 
-unsetopt beep
-
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /home/darshan/.config/zsh-syntax-highlighting
 source /home/darshan/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# Vi keybindings
+unsetopt beep
+
 set -o vi
 
 # Custom aliases
