@@ -3,26 +3,16 @@
 sudo apt update && sudo apt upgrade -y
 
 #Steam
-
 #Lutris
-
 #Vim
-
 #Discord
-
 #Gimp
-
 #FireFox
-
 #LibreOffice
-
 #VLC Media Player
-
-#Python 3
-
 #Neofetch
 
-sudo apt install steam lutris vim discord git firefox libreoffice vlc python3 neofetch
+sudo apt install steam lutris firefox vim discord git vlc neofetch git vim lollypop libreoffice zathura zathura-pdf-mupdf mpv doas neofetch
 
 #Set up vim plug installer
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
